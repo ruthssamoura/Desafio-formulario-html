@@ -1,7 +1,6 @@
 ##### DESAFIO EXERCÍCIO HTML
 
 - Exercício o1
-- 
 Formulário cadastro
 
 - Exercício o2
