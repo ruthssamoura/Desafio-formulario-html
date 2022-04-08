@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">  
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulário de Cadastro</title>
+    </head>
+    <body>
+        
+    <form>
+
+            <table>
+
+                <h2>Cadastre seus dados </h2>
+
+                <fieldset>
+
+                    <div>
+                        <p>
+                            <label for="nome">Nome:</label>
+                            <input type="nome" id="nome"placeholder="Digite seu nome" required/>    
+                        </p>
+                    </div>
+
+                    <div>
+                        <p>
+                            <label for="nome">Sobrenome:</label>
+                            <input type="sobrenome" id="sobrenome"placeholder="Digite seu sobrenome"/>    
+                        </p>
+                    </div>
+
+                    <div>
+                        <p>
+                            <label for="story">Endereço:</label>
+                            <textarea></textarea>
+                         
+                        </p>
+                    </div>
+
+                    <div class="campo"><label>Disciplina:<br></label>
+                        
+                            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                            <label for="vehicle1"> Programação</label><br>
+                            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                            <label for="vehicle2"> Lógica</label><br>
+                            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                            <label for="vehicle3"> Algoritmo</label><br>
+                    
+                    
+                    <div class="campo">
+                        <label>Sexo:</label>
+                        <label>
+                            <input type="radio" name="masculino" value="masculino" checked>Masculino
+                        </label>
+                        <label>
+                            <input type="radio" name="feminino" value="feminino">Feminino
+                        </label>
+                        <label>
+                            <input type="radio" name="nao informar" value="nao informar">Não Informar
+                        </label>
+                    </div>
+
+                    <div>
+                        <label for="idade">Idade:</label>
+                        <select name="idade" id="idade">
+                        <option value="+18">+18</option>
+                        <option value="+22">+22</option>
+                        <option value="+30">+30</option>
+                        </select>
+                    </div>
+
+                    <center>
+
+                        <button type="cadastro">Cadastrar</button>
+                        <button type="limpar">Limpar</button>
+
+                    </center>
+
+                    <div>
+                        <input id="file" name="file" type="file" />
+                    </div>
+ 
+            </fieldset> 
+
+        </table>
+
+        </form>
+
+    </body>
+
+</html>
