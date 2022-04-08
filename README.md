@@ -1,14 +1,13 @@
 ##### DESAFIO EXERCÍCIO HTML
 
 - Exercício o1
-
-Formulário cadastro.
-
+- 
+Formulário cadastro
 
 - Exercício o2
 
-    index html.
+    index html
 
 - Exercício 03
 
-    Login html...
+    Login html
